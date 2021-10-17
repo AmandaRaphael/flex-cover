@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: beige;
+}
+/* nav */
+.navDiv{
+    display:flex;
+    height:120px;
+    
+}
+
+.menu{
+    margin-left:100px;
+    padding-left:60px;
+    display:flex;
+ 
+
+}
+.menu li{
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+    border-radius:30px;
+    border:1px solid black;
+    
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.menu li:hover{
+    background-color: black;
+}
+.menu li:hover  a{
+    color:white;
+  
+}
+/* content */
+.content{
+    display:flex;
+    justify-content:space-around;
+}
+/* --aside-- */
+aside{
+    display:flex;
+    flex-direction:column;
+    width:350px;
+
+
+}
+aside span{
+font-weight:bolder;
+font-size: 140px;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 4px;
+margin-top:20px;
+}
+div p{
+    font-size:xx-large;
+    font-family: 'Roboto', sans-serif;
+}
+/* ---image--- */
+div img{
+    width:400px;
+    flex-grow:3;
+}
+/* --side a-- */
+.sideA a{
+    text-decoration: none;
+    color:white;
+    padding:5px;
+    font-weight:bold;
+
+}
+
+.sideA div{
+background-color: black;
+border-radius: 25px;
+width:220px;
+height:20px;
+padding:10px;
+}
+.sideA{
+    display:flex;
+align-items: center;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height:150px;
+}
+.foot a{
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+
+}
+
+.sideIcon::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+    color:white;
+    padding:10px
+}
+.downIcon::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+     content: "\f063";
+    padding:10px;
+}
